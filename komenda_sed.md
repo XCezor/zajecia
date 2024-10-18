@@ -22,11 +22,11 @@ Skrypt edycji składa się z poszczególnych podkomend, a każdy z nich znajduje
 ```sh
 sed 's/Sed/Des' sed_test.txt
 ```
-Komenda ta wyświetli zawartość pliku sed_test.txt i tylko do podlądu zamieni wszystkie napisy `Sed` na `Des`. Wynik tej komendy można sprawdzić w pliku `sed przykład.png`
+Komenda ta wyświetli zawartość pliku sed_test.txt i tylko do podlądu zamieni wszystkie napisy `Sed` na `Des`. Wynik tej komendy można sprawdzić w pliku `sed przykład.png`.
 
 ## Jeżeli chcemy zapisać zmiany wprowadzone komendą `sed`, na końcu polecenia można dodać `>nazwa_pliku.txt`
 ## Przykład:
 ```sh
 sed 's/Sed/Des' sed_test.txt >sed_test_dwa.txt
 ```
-Wynik komendu można zobaczyć na zdjęciu `sed kopiowanie pliku.png`
+Polecenie utworzy nowy plik `sed_test_dwa.txt` w tym samym katalogu, z podmienionymi napisami `Sed` na `Des`. Wynik można zobaczyć na zdjęciu `sed kopiowanie pliku.png`.
