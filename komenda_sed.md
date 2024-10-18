@@ -14,7 +14,7 @@ Komenda sed używa dwóch obszarów roboczych do przechowywania modyfikowanego w
 Skrypt edycji składa się z poszczególnych podkomend, a każdy z nich znajduje się w osobnym wierszu. Ogólna postać podkomend produktu sed jest następująca:
 
 ```sh
-[`zakres adresów`] funkcja[`modyfikatory`]
+[zakres adresów] funkcja[modyfikatory]
 ```
 
 ## Można zatem powiedzieć, że komenda `sed` podmienia dany fragment pliku na inny
