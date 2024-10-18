@@ -21,5 +21,6 @@ Skrypt edycji składa się z poszczególnych podkomend, a każdy z nich znajduje
 \
 ## Przykład:
 ```sh
-sed
+sed 's/Sed/Des' sed_test.txt
 ```
+Komenda ta wyświetli zawartość pliku sed_test.txt i tylko do podlądu zamieni wszystkie napisy 'Sed' na 'Des'. Wynik tej komendy można sprawdzić w pliku 'sed przykład.png'
