@@ -2,4 +2,5 @@
 
 ## Składnia:
 ```sed [ -n ] [ -u ] Skrypt  [ Plik ... ]```
+\
 ```sed [ -n ] [ -u ] [ -e Skrypt ] ... [ -f ScriptFile ] ... [ Plik ... ]```
