@@ -24,7 +24,7 @@ sed 's/Sed/Des' sed_test.txt
 ```
 Komenda ta wyświetli zawartość pliku sed_test.txt i tylko do podlądu zamieni wszystkie napisy `Sed` na `Des`. Wynik tej komendy można sprawdzić w pliku `sed przykład.png`
 
-## Jeżeli chcemy zapisać zmiany wprowadzone komendą `sed`, na końcu polecenie można dodać `>nazwa_pliku.txt`
+## Jeżeli chcemy zapisać zmiany wprowadzone komendą `sed`, na końcu polecenia można dodać `>nazwa_pliku.txt`
 ## Przykład:
 ```sh
 sed 's/Sed/Des' sed_test.txt >sed_test_dwa.txt
