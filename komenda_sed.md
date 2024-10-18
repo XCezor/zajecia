@@ -9,7 +9,9 @@ sed [ -n ] [ -u ] [ -e Skrypt ] ... [ -f ScriptFile ] ... [ Plik ... ]
 \
 \
 Komenda sed używa dwóch obszarów roboczych do przechowywania modyfikowanego wiersza: **obszaru wzorca**, w którym znajduje się wybrana linia, oraz **obszaru wstrzymania**, w którym wiersz może być tymczasowo przechowywany.
-\
+\\
 Skrypt edycji składa się z poszczególnych podkomend, a każdy z nich znajduje się w osobnym wierszu. Ogólna postać podkomend produktu sed jest następująca:
 
-```[zakres adresów] funkcja[modyfikatory]```
+```sh
+[zakres adresów] funkcja[modyfikatory]
+```
