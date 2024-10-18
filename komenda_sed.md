@@ -16,9 +16,8 @@ Skrypt edycji składa się z poszczególnych podkomend, a każdy z nich znajduje
 ```sh
 [zakres adresów] funkcja[modyfikatory]
 ```
-\
+
 ## Można zatem powiedzieć, że komenda 'sed' podmienia dany fragment pliku na inny
-\
 ## Przykład:
 ```sh
 sed 's/Sed/Des' sed_test.txt
